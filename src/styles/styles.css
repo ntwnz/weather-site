@@ -52,7 +52,7 @@ body{
 }
 #weather{
     display: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #weather.show{
     display: block;
@@ -124,7 +124,7 @@ body{
 #wind_icon{
     color: #9540e4b0;
 }
-#alert{
+#alert.show{
     font-weight: 500, bold;
     font-size: 14pt;
     display: flex;

@@ -61,5 +61,6 @@ function showInfo (json){
 }
 
 function showAlert(msg) {
+    document.querySelector('#alert').classList.add('show')
     document.querySelector('#alert').innerHTML = msg;
 }
